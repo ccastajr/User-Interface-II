@@ -1,1 +1,110 @@
-/* Add CSS styling here */
+.container {
+    box-sizing: border-box;
+    font-family: 'Pacifico', 'Courier New', Courier, monospace;
+    max-width: 100%;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h1, header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background: pink;
+}
+
+header nav{
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+header nav a{
+  color: black;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: teal;
+  padding: 2px;
+  border-radius: 50%;
+  
+}
+
+.header_img{
+    padding: 10%;
+    margin: 0 auto;
+}
+
+img{
+    width: 500px;
+}
+
+
+.middle .middle_text{
+    display: flex;
+    flex-direction: row;
+}
+
+.middle .middle_text .middle_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+    margin-left: 200px;
+}
+
+.picture_section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    justify-content: space-between;
+    width: 80%;
+    background: gray;
+}
+
+
+h2{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    background: pink;
+    border-top: 1px dashed white;
+    text-align: center;
+    justify-content: center;
+  }
+
+footer .footer-content { 
+    margin: 0 auto; 
+    width: 600px;
+  }
+  
+footer .footer-content h3 {
+    padding: 0;
+    margin: 20px 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+footer a{
+    margin: 10px;
+    color: black;
+    text-decoration: underline;
+}
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 500px){
+    
+}
